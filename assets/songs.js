@@ -1,4 +1,4 @@
-[
+export const songs = [
   {
     "id": "1",
     "title": "Waste",

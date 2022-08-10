@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import SongList from '../components/SongList'
 import musicStyles from '../styles/Music.module.css'
+import {songs} from '../assets/songs'
 
-const music = () => {
+const music = ({songs}) => {
   return (
     <div>
       <Head>
@@ -15,9 +16,18 @@ const music = () => {
       <h1 className={musicStyles.musicTitle}>McQueen</h1>
       <hr className={musicStyles.musicLine}/>
       <p className={musicStyles.subtitle}>All songs written and produced by Richard Kwang</p>
-      <SongList />
+      <SongList songs={songs}/>
     </div>
   )
+}
+
+export const getStaticProps = async () => {
+  console.log(songs)
+  return {
+    props: {
+      songs: songs
+    }
+  }
 }
 
 export default music
