@@ -13,6 +13,7 @@ const SongListItem = ({ song }) => {
           alt={song.image}
           width="300"
           height="300"
+          priority="true"
         />
       </a>
       <div className={musicStyles.songInfo}>

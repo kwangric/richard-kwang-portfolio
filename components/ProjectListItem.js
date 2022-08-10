@@ -17,6 +17,7 @@ const ProjectListItem = ({ project }) => {
             alt={project.img}
             width="200"
             height="200"
+            priority="true"
           />
           <div className={projectStyles.projectInfo}>
             <div>
