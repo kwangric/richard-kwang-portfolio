@@ -6,16 +6,16 @@ const SongListItem = ({ song }) => {
 
   return (
     <div className={musicStyles.card}>
+      <div className={musicStyles.musicArtContainer}>
       <a target="_blank" rel="noopener noreferrer" href={`${song.url}`}>
         <Image
           className={musicStyles.musicArt}
           src={`/thumbnails/${song.image}.jpg`}
           alt={song.image}
-          width="300"
-          height="300"
-          priority="true"
+          layout="fill"
         />
       </a>
+      </div>
       <div className={musicStyles.songInfo}>
         <h3 className={musicStyles.songTitle}>{song.title}</h3>
         <p className={musicStyles.year}>{song.year}</p>

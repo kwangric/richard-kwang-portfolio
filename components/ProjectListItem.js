@@ -7,14 +7,14 @@ const ProjectListItem = ({ project }) => {
   return (
     <div className={projectStyles.cardMargin}>
       <div className={projectStyles.card}>
+        <div className={projectStyles.projectImageContainer}>
         <Image
-          src={`/thumbnails/${project.img}.png`}
+          src={`/thumbnails/${project.img}.jpg`}
           alt={project.img}
           className={projectStyles.projectImage}
-          width="200"
-          height="200"
-          priority="true"
+          layout="fill"
         />
+        </div>
         <div className={projectStyles.projectInfo}>
           <div>
             <h3 className={projectStyles.projectTitle}>{project.title}</h3>

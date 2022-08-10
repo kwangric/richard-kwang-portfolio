@@ -32,8 +32,10 @@
   margin: 1rem;
 }
 
-.img {
-  margin: 50px;
+.projectImageContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .projectInfo {

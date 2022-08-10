@@ -28,6 +28,12 @@
   padding: 1.5rem;
 }
 
+.musicArtContainer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
 .musicLine {
   width: 100px;
 }
