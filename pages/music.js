@@ -7,7 +7,7 @@ const music = ({songs}) => {
   return (
     <div>
       <Head>
-        <title>McQueen</title>
+        <title>McQueen | Richard Kwang</title>
         <meta
           name="keywords"
           content="web development, software engineer, programming, richard kwang"
@@ -22,7 +22,6 @@ const music = ({songs}) => {
 }
 
 export const getStaticProps = async () => {
-  console.log(songs)
   return {
     props: {
       songs: songs

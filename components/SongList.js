@@ -1,7 +1,7 @@
 import SongListItem from './SongListItem'
 import musicStyles from '../styles/Music.module.css'
 
-const SongList = ({songs}) => {
+const SongList = ({ songs }) => {
   return (
     <div className={musicStyles.grid}>
       {songs.map((song) => (

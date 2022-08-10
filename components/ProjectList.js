@@ -1,8 +1,7 @@
 import ProjectListItem from './ProjectListItem'
 import projectStyles from '../styles/Project.module.css'
-import projects from '../assets/projects.json'
 
-const ProjectList = () => {
+const ProjectList = ({ projects }) => {
   return (
     <div className={projectStyles.grid}>
       {projects.map((project) => (

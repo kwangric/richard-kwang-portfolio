@@ -6,11 +6,6 @@ import Image from 'next/image'
 const ProjectListItem = ({ project }) => {
   return (
     <div className={projectStyles.cardMargin}>
-      {/* <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={`${project.projectLink}`}
-      > */}
       <div className={projectStyles.card}>
         <Image
           src={`/thumbnails/${project.img}.png`}
@@ -18,7 +13,6 @@ const ProjectListItem = ({ project }) => {
           className={projectStyles.projectImage}
           width="200"
           height="200"
-          // sizes="(min-width: 100) 200, (min-height: 100), 200"
           priority="true"
         />
         <div className={projectStyles.projectInfo}>
@@ -46,7 +40,6 @@ const ProjectListItem = ({ project }) => {
           </div>
         </div>
       </div>
-      {/* </a> */}
     </div>
   )
 }

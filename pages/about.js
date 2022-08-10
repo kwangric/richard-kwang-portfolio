@@ -5,7 +5,7 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>About | Richard Kwang</title>
         <meta
           name="keywords"
           content="web development, software engineer, programming, richard kwang"

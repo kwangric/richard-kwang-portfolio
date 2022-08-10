@@ -1,4 +1,4 @@
-[
+export const projectsList = [
   {
     "id": "1",
     "title": "FitQuest",
