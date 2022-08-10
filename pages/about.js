@@ -1,17 +1,19 @@
-import Homepage from '../components/Homepage'
+import AboutMe from '../components/AboutMe'
 import Head from 'next/head'
 
-export default function Home({ articles }) {
+const about = () => {
   return (
     <div>
       <Head>
-        <title>Richard Kwang</title>
+        <title>About</title>
         <meta
           name="keywords"
           content="web development, software engineer, programming, richard kwang"
         />
       </Head>
-      <Homepage />
+      <AboutMe />
     </div>
   )
 }
+
+export default about

@@ -1,0 +1,62 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  gap: 25px;
+}
+
+.musicTitle {
+  text-align: center;
+  margin: 5rem 0 0 0;
+  font-size: 7rem;
+  font-family: 'Nothing You Could Do', 'Roboto', san-serif;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+.musicLine {
+  width: 100px;
+}
+
+.songInfo {
+  padding: 1.5rem;
+  width: 300px;
+}
+
+.songTitle {
+  margin: 10px 0 5px 0;
+  font-size: 1.25rem;
+}
+
+.year {
+  margin: 3px 0 10px 0;
+  font-size: 0.75rem;
+}
+
+.credits {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 769px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+}
