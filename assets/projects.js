@@ -25,5 +25,14 @@ export const projectsList = [
     "projectLink": "https://furever21.herokuapp.com/",
     "img": "furever21",
     "technologies": ["react", "redux", "react-bootstrap", "node", "express", "sequelize", "postgresql"]
+  },
+  {
+    "id": "4",
+    "title": "Stardew Tips",
+    "description": "Quick reference guide for Stardew Valley.",
+    "githubLink": "https://github.com/kwangric/stardew-tips-v2",
+    "projectLink": "https://stardew-tips.herokuapp.com/",
+    "img": "stardew-tips",
+    "technologies": ["react", "mui", "node", "express"]
   }
 ]
