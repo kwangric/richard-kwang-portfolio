@@ -45,7 +45,8 @@
 
 .songTitle {
   margin: 10px 0 5px 0;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
+  font-family: 'Nothing You Could Do', 'Roboto', san-serif;
 }
 
 .year {

@@ -1,4 +1,18 @@
 .container {
-  max-width: 750px;
+  max-width: 640px;
   line-height: 2;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
+
+.profilePic {
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .container p {
+    font-size: 1rem;
+  }
 }
