@@ -9,7 +9,7 @@ class MyDocument extends Document {
           {/* eslint-disable-next-line react/no-unknown-property */}
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
-            href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Nothing+You+Could+Do&family=Roboto&display=swap"
             rel="stylesheet"
           />
         </Head>
