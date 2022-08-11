@@ -76,8 +76,25 @@
     font-size: 0.75rem;
   }
   .card {
+    margin: 0;
+    padding-bottom: 0;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 0;
+  }
+  .musicArtContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  .songInfo {
+    padding-top: 0.5rem;
+  }
+  .songTitle {
+    font-size: 1.5rem;
+  }
+  .credits {
+    font-size: 0.75rem;
   }
 }
