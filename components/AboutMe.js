@@ -8,14 +8,16 @@ import SchoolIcon from '@mui/icons-material/School'
 const AboutMe = () => {
   return (
     <div className={aboutStyles.container}>
-      <div className={aboutStyles.profilePic}>
-        <Image
-          priority
-          src={ProfilePic}
-          alt="Richard Kwang"
-          width={250}
-          height={250}
-        />
+      <div className={aboutStyles.profilePicContainer}>
+        <div className={aboutStyles.profilePic}>
+          <Image
+            priority
+            src={ProfilePic}
+            alt="Richard Kwang"
+            width={250}
+            height={250}
+          />
+        </div>
       </div>
       <div className={aboutStyles.aboutIcons}>
         <a
@@ -23,21 +25,17 @@ const AboutMe = () => {
           rel="noopener noreferrer"
           href="https://github.com/kwangric"
         >
-          <GitHubIcon className={aboutStyles.aboutIcon}/>
+          <GitHubIcon className={aboutStyles.aboutIcon} />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/richardkwang/"
         >
-          <LinkedInIcon className={aboutStyles.aboutIcon}/>
+          <LinkedInIcon className={aboutStyles.aboutIcon} />
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="/resume.pdf"
-        >
-          <SchoolIcon className={aboutStyles.aboutIcon}/>
+        <a target="_blank" rel="noopener noreferrer" href="/resume.pdf">
+          <SchoolIcon className={aboutStyles.aboutIcon} />
         </a>
       </div>
       <p>Hi, I&apos;m Richard!</p>
