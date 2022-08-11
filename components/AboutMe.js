@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import ProfilePic from '../public/me.png'
 import aboutStyles from '../styles/About.module.css'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import SchoolIcon from '@mui/icons-material/School'
 
 const AboutMe = () => {
   return (
@@ -10,9 +13,32 @@ const AboutMe = () => {
           priority
           src={ProfilePic}
           alt="Richard Kwang"
-          width={300}
-          height={300}
+          width={250}
+          height={250}
         />
+      </div>
+      <div className={aboutStyles.aboutIcons}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/kwangric"
+        >
+          <GitHubIcon className={aboutStyles.aboutIcon}/>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/richardkwang/"
+        >
+          <LinkedInIcon className={aboutStyles.aboutIcon}/>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="/resume.pdf"
+        >
+          <SchoolIcon className={aboutStyles.aboutIcon}/>
+        </a>
       </div>
       <p>Hi, I&apos;m Richard!</p>
       <p>

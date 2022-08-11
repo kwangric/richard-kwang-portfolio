@@ -11,6 +11,21 @@
   text-align: center;
 }
 
+.aboutIcons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 50px;
+}
+
+.aboutIcon {
+  transition: all 0.5s ease-in-out;
+}
+
+.aboutIcon:hover {
+  transform: scale(1.5);
+}
+
 @media (max-width: 640px) {
   .container p {
     font-size: 1rem;
