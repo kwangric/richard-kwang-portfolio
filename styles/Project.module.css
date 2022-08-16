@@ -9,11 +9,8 @@
 .card {
   display: flex;
   flex-direction: row;
-  /* padding: 1rem; */
   text-align: left;
   gap: 25px;
-  /* border: 1px solid rgba(245,245,244, 0.25);
-  border-radius: 15px; */
   position: relative;
   background-color: #1c1917;
   cursor: pointer;
@@ -26,7 +23,7 @@
 
 .card p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -45,12 +42,14 @@
   bottom: 2%;
   left: 5%;
   color: #1c1917;
-  display: none;
+  opacity: 0;
   font-family: 'Nothing You Could Do', 'Inter', 'Roboto', san-serif;
+  transition: all 0.25s ease-in-out;
 }
 
 .card:hover .projectTitleOverlay {
   display: block;
+  opacity: 1;
 }
 
 .projectInfo {
@@ -64,7 +63,6 @@
   display: flex;
   justify-content: center;
   gap: 25px;
-  margin-top: 20px;
 }
 
 .projectIcon {
@@ -79,11 +77,26 @@
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: filter 0.25s ease-in-out;
+  border-radius: 15px;
 }
 
-.projectImage:hover {
+.card:hover .projectImage {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.projectImageOverlay {
+  background: linear-gradient(to bottom, rgba(167,207,223,0) 75%,black);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  border-radius: 15px;
+}
+
+.card:hover .projectImageOverlay {
+  opacity: 0.8;
 }
 
 .modal {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import projectStyles from '../styles/Project.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import HomeIcon from '@mui/icons-material/Home'
+import LinkIcon from '@mui/icons-material/Link';
 import Image from 'next/image'
 import Backdrop from '@mui/material/Backdrop';
 import Modal from '@mui/material/Modal'
@@ -24,6 +24,7 @@ const ProjectListItem = ({ project }) => {
               layout="fill"
             />
             <p className={projectStyles.projectTitleOverlay}>{project.title}</p>
+            <div className={projectStyles.projectImageOverlay} />
           </div>
         </div>
       </div>
@@ -52,7 +53,7 @@ const ProjectListItem = ({ project }) => {
                   rel="noopener noreferrer"
                   href={`${project.projectLink}`}
                 >
-                  <HomeIcon className={projectStyles.projectIcon} />
+                  <LinkIcon className={projectStyles.projectIcon} />
                 </a>
                 <a
                   target="_blank"
