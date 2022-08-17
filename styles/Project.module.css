@@ -41,10 +41,11 @@
   position: absolute;
   bottom: 2%;
   left: 5%;
-  color: #1c1917;
+  color: #f5f5f4;;
   opacity: 0;
   font-family: 'Inter', 'Roboto', san-serif;
   transition: all 0.25s ease-in-out;
+  z-index: 1;
 }
 
 .card:hover .projectTitleOverlay {
@@ -85,19 +86,21 @@
   filter: grayscale(0%);
 }
 
-/* .projectImageOverlay {
-  background: linear-gradient(to bottom, rgba(167,207,223,0) 75%,black);
+.projectImageOverlay {
+  background-color: #1c1917;
+  bottom: 0;
   width: 300px;
-  height: 300px;
+  height: 60px;
   position: absolute;
   opacity: 0;
   transition: opacity 0.25s ease-in-out;
-  border-radius: 15px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
 }
 
 .card:hover .projectImageOverlay {
-  opacity: 0.8;
-} */
+  opacity: 0.9;
+}
 
 .modal {
   display: flex;
@@ -121,6 +124,7 @@
 
 @media (max-width: 640px) {
   .grid {
+    margin-top: 2rem;
     width: 100%;
     flex-direction: column;
   }
