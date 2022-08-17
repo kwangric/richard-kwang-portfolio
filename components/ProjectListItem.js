@@ -18,9 +18,9 @@ const ProjectListItem = ({ project }) => {
         <div className={projectStyles.card} onClick={handleOpen}>
           <div className={projectStyles.projectImageContainer}>
             <Image
+              className={projectStyles.projectImage}
               src={`/thumbnails/${project.img}.jpg`}
               alt={project.img}
-              className={projectStyles.projectImage}
               layout="fill"
             />
             <p className={projectStyles.projectTitleOverlay}>{project.title}</p>

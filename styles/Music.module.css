@@ -39,6 +39,10 @@
   height: 300px;
 }
 
+.musicArt {
+  border-radius: 15px;
+}
+
 .musicLine {
   width: 100px;
 }
@@ -85,16 +89,14 @@
   }
   .musicArtContainer {
     position: relative;
-    width: 200px;
-    height: 200px;
   }
   .songInfo {
     padding-top: 0.5rem;
   }
   .songTitle {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
   .credits {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
