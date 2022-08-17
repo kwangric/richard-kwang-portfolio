@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import projectStyles from '../styles/Project.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkIcon from '@mui/icons-material/Link';
+import LinkIcon from '@mui/icons-material/Link'
 import Image from 'next/image'
-import Backdrop from '@mui/material/Backdrop';
+import Backdrop from '@mui/material/Backdrop'
 import Modal from '@mui/material/Modal'
 import Fade from '@mui/material/Fade'
+import Tooltip from '@mui/material/Tooltip'
 
 const ProjectListItem = ({ project }) => {
   const [open, setOpen] = useState(false)
@@ -23,7 +24,30 @@ const ProjectListItem = ({ project }) => {
               alt={project.img}
               layout="fill"
             />
-            <p className={projectStyles.projectTitleOverlay}>{project.title}</p>
+            <div className={projectStyles.projectTitleOverlay}>
+              <p>{project.title}</p>
+              <div className={projectStyles.projectTechnologyIcons}>
+                {project.technologies
+                  .filter((tech) => !['React Native', 'Express'].includes(tech))
+                  .map((tech, index) => {
+                    return (
+                      <Tooltip title={tech} key={index}>
+                      <div
+                        className={projectStyles.projectTechnologyIcon}
+
+                      >
+
+                          <Image
+                            src={`/icons/${tech}.png`}
+                            layout="fill"
+                            alt={tech}
+                          />
+                      </div>
+                        </Tooltip>
+                    )
+                  })}
+              </div>
+            </div>
             <div className={projectStyles.projectImageOverlay} />
           </div>
         </div>
@@ -45,7 +69,27 @@ const ProjectListItem = ({ project }) => {
                 <p className={projectStyles.projectDescription}>
                   {project.description}
                 </p>
-                <p>{`Built with: ${project.technologies.join(', ')}`}</p>
+                <div className={projectStyles.projectTechnologyModalIcons}>
+                {project.technologies
+                  .filter((tech) => !['React Native', 'Express'].includes(tech))
+                  .map((tech, index) => {
+                    return (
+                      <Tooltip title={tech} key={index}>
+                      <div
+                        className={projectStyles.projectTechnologyModalIcon}
+
+                      >
+
+                          <Image
+                            src={`/icons/${tech}.png`}
+                            layout="fill"
+                            alt={tech}
+                          />
+                      </div>
+                        </Tooltip>
+                    )
+                  })}
+              </div>
               </div>
               <div className={projectStyles.projectIcons}>
                 <a

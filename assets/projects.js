@@ -6,7 +6,8 @@ export const projectsList = [
     "githubLink": "https://github.com/elmos-elementary/fit-quest",
     "projectLink": "https://youtu.be/FNcRcwjbspY",
     "img": "fitquest",
-    "technologies": ["React Native", "Node", "Express", "Sequelize", "PostgreSQL"]
+    "technologies": ["React Native", "Node", "Express", "Sequelize", "PostgreSQL"],
+    "type": "video"
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@ export const projectsList = [
     "githubLink": "https://github.com/kwangric/ear-training",
     "projectLink": "https://www.tone.expert",
     "img": "tone-expert",
-    "technologies": ["Tone.js", "React", "Redux", "MUI", "Vite"]
+    "technologies": ["Tone.js", "React", "Redux", "MUI", "Vite"],
+    "type": "site"
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@ export const projectsList = [
     "githubLink": "https://github.com/2204-FSA-Team-Tribble/Grace-Shopper",
     "projectLink": "https://furever21.herokuapp.com/",
     "img": "furever21",
-    "technologies": ["React", "Redux", "React-Bootstrap", "Node", "Express", "Sequelize", "PostgreSQL"]
+    "technologies": ["React", "Redux", "React-Bootstrap", "Node", "Express", "Sequelize", "PostgreSQL"],
+    "type": "site"
   },
   {
     "id": "4",
@@ -33,6 +36,7 @@ export const projectsList = [
     "githubLink": "https://github.com/kwangric/stardew-tips-v2",
     "projectLink": "https://stardew-tips.herokuapp.com/",
     "img": "stardew-tips",
-    "technologies": ["React", "MUI", "Node", "Express"]
+    "technologies": ["React", "MUI", "Node", "Express"],
+    "type": "site"
   }
 ]
