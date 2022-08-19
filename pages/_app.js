@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps, router }) {
         key={router.route}
         initial="pageInitial"
         animate="pageAnimate"
+        transition={{ duration: 0.5 }}
         variants={{
           pageInitial: {
             opacity: 0,
