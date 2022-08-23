@@ -47,6 +47,31 @@
   width: 100px;
 }
 
+.songOverlay {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.musicArtContainer:hover .songOverlay {
+  opacity: 1;
+}
+
+.songImageOverlay {
+  background-color: #1c1917;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 14px;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.musicArtContainer:hover .songImageOverlay {
+  opacity: 0.9;
+}
+
 .songInfo {
   padding: 1.5rem;
   width: 300px;
@@ -99,6 +124,7 @@
   }
   .songTitle {
     font-size: 1.75rem;
+    margin-top: 20px;
   }
   .credits {
     font-size: 1rem;

@@ -6,25 +6,29 @@ const SongListItem = ({ song }) => {
 
   return (
     <div className={musicStyles.card}>
-      <div className={musicStyles.musicArtContainer}>
-        <a target="_blank" rel="noopener noreferrer" href={`${song.url}`}>
+      <a target="_blank" rel="noopener noreferrer" href={`${song.url}`}>
+        <div className={musicStyles.musicArtContainer}>
           <Image
             className={musicStyles.musicArt}
             src={`/thumbnails/${song.image}.jpg`}
             alt={song.image}
             layout="fill"
           />
-        </a>
-      </div>
-      <div className={musicStyles.songInfo}>
-        <h3 className={musicStyles.songTitle}>{song.title}</h3>
-        <p className={musicStyles.year}>{song.year}</p>
-        {credits.map((credit, index) => (
-          <p className={musicStyles.credits} key={index}>
-            {credit}
-          </p>
-        ))}
-      </div>
+
+          <div className={musicStyles.songOverlay}>
+            <div className={musicStyles.songInfo}>
+              <h3 className={musicStyles.songTitle}>{song.title}</h3>
+              <p className={musicStyles.year}>{song.year}</p>
+              {credits.map((credit, index) => (
+                <p className={musicStyles.credits} key={index}>
+                  {credit}
+                </p>
+              ))}
+            </div>
+          </div>
+          <div className={musicStyles.songImageOverlay} />
+        </div>
+      </a>
     </div>
   )
 }
