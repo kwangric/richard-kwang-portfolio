@@ -38,5 +38,15 @@ export const projectsList = [
     "img": "stardew-tips",
     "technologies": ["React", "MUI", "Node", "Express"],
     "type": "site"
+  },
+  {
+    "id": "5",
+    "title": "Cabbage Picker",
+    "description": "Cabbage picking idle game, inspired by Runescape.",
+    "githubLink": "https://github.com/kwangric/cabbage-picker",
+    "projectLink": "https://www.cabbagepicker.com/",
+    "img": "cabbage-picker",
+    "technologies": ["React", "MUI"],
+    "type": "site"
   }
 ]
