@@ -6,7 +6,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  font-family: 'Nothing You Could Do', 'Roboto', san-serif;
+  font-family: 'Inter', 'Roboto', san-serif;
+  font-weight: 300;
 }
 
 .nav ul {
@@ -21,6 +22,10 @@
 .nav ul li a {
   margin: 5px 15px;
   padding: 15px;
+}
+
+.opacity {
+  opacity: 0.5
 }
 
 @media (max-width: 640px) {

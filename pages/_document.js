@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
@@ -6,12 +7,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          {/* eslint-disable-next-line react/no-unknown-property */}
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter&family=Nothing+You+Could+Do&family=Roboto&display=swap"
-            rel="stylesheet"
-          />
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Nothing+You+Could+Do&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
