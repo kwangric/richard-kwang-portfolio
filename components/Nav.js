@@ -11,6 +11,9 @@ const Nav = () => {
         <li className={router.asPath === "/" ? '' : navStyles.opacity}>
           <Link href='/'>Home</Link>
         </li>
+        <li className={router.asPath === "/skills" ? '' : navStyles.opacity}>
+          <Link href='/skills'>Skills</Link>
+        </li>
         <li className={router.asPath === "/projects" ? '' : navStyles.opacity}>
           <Link href='/projects'>Projects</Link>
         </li>
