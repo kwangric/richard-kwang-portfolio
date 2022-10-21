@@ -92,13 +92,13 @@ const ProjectListItem = ({ project }) => {
               </div>
               </div>
               <div className={projectStyles.projectIcons}>
-                <a
+                {project.projectLink ? (<a
                   target="_blank"
                   rel="noopener noreferrer"
                   href={`${project.projectLink}`}
                 >
                   <LinkIcon className={projectStyles.projectIcon} />
-                </a>
+                </a>) : <></>}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

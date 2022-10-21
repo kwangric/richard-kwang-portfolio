@@ -48,5 +48,13 @@ export const projectsList = [
     "img": "cabbage-picker",
     "technologies": ["React", "MUI"],
     "type": "site"
+  },
+  {
+    "id": "6",
+    "title": "Daisy Bot",
+    "description": "Discord bot to help gamers in different time zones.",
+    "githubLink": "https://github.com/kwangric/daisy-bot",
+    "img": "daisy-bot",
+    "technologies": [],
   }
 ]
