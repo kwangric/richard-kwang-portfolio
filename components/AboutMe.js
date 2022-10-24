@@ -43,7 +43,7 @@ const AboutMe = () => {
         I am a software engineer, musician, and a lifelong learner with a desire
         to improve how people interact with technology. I believe that the
         internet has the power to build strong communities and bring people
-        together, and my mission is to work towards helping others experience
+        together, and my mission help others experience
         what the web has to offer in an intuitive and concise way.
       </p>
     </div>
