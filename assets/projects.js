@@ -24,7 +24,6 @@ export const projectsList = [
     "title": "Furever_21",
     "description": "E-commerce website targeting pet clothing.",
     "githubLink": "https://github.com/2204-FSA-Team-Tribble/Grace-Shopper",
-    "projectLink": "https://furever21.herokuapp.com/",
     "img": "furever21",
     "technologies": ["React", "Redux", "React-Bootstrap", "Node", "Express", "Sequelize", "PostgreSQL"],
     "type": "site"
@@ -32,7 +31,7 @@ export const projectsList = [
   {
     "id": "4",
     "title": "Stardew Tips",
-    "description": "Quick reference guide for Stardew Valley.",
+    "description": "Quick reference guide for Stardew Vaßlley.",
     "githubLink": "https://github.com/kwangric/stardew-tips-v2",
     "projectLink": "https://stardew-tips.herokuapp.com/",
     "img": "stardew-tips",
