@@ -32,8 +32,8 @@ export const projectsList = [
     "id": "4",
     "title": "Stardew Tips",
     "description": "Quick reference guide for Stardew Valley.",
-    "githubLink": "https://github.com/kwangric/stardew-tips-v2",
-    "projectLink": "https://stardew-tips.herokuapp.com/",
+    "githubLink": "https://github.com/kwangric/stardew-tips-v3",
+    "projectLink": "https://stardew.tips",
     "img": "stardew-tips",
     "technologies": ["React", "MUI", "Node", "Express"],
     "type": "site"
