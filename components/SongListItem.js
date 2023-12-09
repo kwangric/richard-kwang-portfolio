@@ -18,7 +18,7 @@ const SongListItem = ({ song }) => {
           <div className={musicStyles.songOverlay}>
             <div className={musicStyles.songInfo}>
               <h3 className={musicStyles.songTitle}>{song.title}</h3>
-              <p className={musicStyles.year}>{song.year}</p>
+              <p className={musicStyles.year}>{song.year} - {song.type}</p>
               {credits.map((credit, index) => (
                 <p className={musicStyles.credits} key={index}>
                   {credit}
