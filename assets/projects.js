@@ -35,25 +35,35 @@ export const projectsList = [
     "githubLink": "https://github.com/kwangric/stardew-tips-v3",
     "projectLink": "https://stardew.tips",
     "img": "stardew-tips",
-    "technologies": ["React", "MUI", "Node", "Express"],
-    "type": "site"
-  },
-  {
-    "id": "5",
-    "title": "Cabbage Picker",
-    "description": "Cabbage picking idle game, inspired by Runescape.",
-    "githubLink": "https://github.com/kwangric/cabbage-picker",
-    "projectLink": "https://www.cabbagepicker.com/",
-    "img": "cabbage-picker",
     "technologies": ["React", "MUI"],
     "type": "site"
   },
   {
-    "id": "6",
-    "title": "Daisy Bot",
-    "description": "Discord bot to help gamers in different time zones.",
-    "githubLink": "https://github.com/kwangric/daisy-bot",
-    "img": "daisy-bot",
+    "id": "5",
+    "title": "Unite Roulette",
+    "description": "Pokémon and build randomizer for Pokémon Unite.",
+    "githubLink": "https://github.com/kwangric/unite-randomizer",
+    "projectLink": "https://uniteroulette.com",
+    "img": "unite-roulette",
     "technologies": [],
-  }
+    "type": "site"
+  },
+  // {
+  //   "id": "5",
+  //   "title": "Cabbage Picker",
+  //   "description": "Cabbage picking idle game, inspired by Runescape.",
+  //   "githubLink": "https://github.com/kwangric/cabbage-picker",
+  //   "projectLink": "https://www.cabbagepicker.com/",
+  //   "img": "cabbage-picker",
+  //   "technologies": ["React", "MUI"],
+  //   "type": "site"
+  // },
+  // {
+  //   "id": "6",
+  //   "title": "Daisy Bot",
+  //   "description": "Discord bot to help gamers in different time zones.",
+  //   "githubLink": "https://github.com/kwangric/daisy-bot",
+  //   "img": "daisy-bot",
+  //   "technologies": [],
+  // }
 ]
