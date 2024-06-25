@@ -1,12 +1,12 @@
 export const songs = [
   {
     "id": "1",
-    "title": "Waste",
-    "year": "2022",
-    "url": "https://open.spotify.com/track/4hP4WOyj4Zu6pi77cO6krY?si=54f1c404095944fb",
-    "image": "waste",
-    "credits": ["Guitar - Fabinho Pereira", "Bass - Charles Berthoud", "Mixing/Mastering - Nick Garcia"],
-    "type": "Single"
+    "title": "Julep",
+    "year": "2024",
+    "url": "https://open.spotify.com/album/6sgLrsASBVKp8gJBVSDK1w?si=UP1Vd4FTQ5agY2ES_Q7aJA",
+    "image": "julep",
+    "credits": [],
+    "type": "EP"
   },
   {
     "id": "2",
