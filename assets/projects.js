@@ -14,7 +14,7 @@ export const projectsList = [
     "title": "Tone Expert",
     "description": "Ear training web game to help users identify music intervals.",
     "githubLink": "https://github.com/kwangric/ear-training",
-    "projectLink": "https://www.tone.expert",
+    "projectLink": "https://toneexpert.netlify.app/",
     "img": "tone-expert",
     "technologies": ["Tone.js", "React", "Redux", "MUI", "Vite"],
     "type": "site"
@@ -23,7 +23,7 @@ export const projectsList = [
     "id": "3",
     "title": "Furever_21",
     "description": "E-commerce website targeting pet clothing.",
-    "githubLink": "https://github.com/2204-FSA-Team-Tribble/Grace-Shopper",
+    "githubLink": "https://github.com/kwangric/Furever-21",
     "img": "furever21",
     "technologies": ["React", "Redux", "React-Bootstrap", "Node", "Express", "Sequelize", "PostgreSQL"],
     "type": "site"
